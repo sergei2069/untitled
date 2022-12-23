@@ -1,26 +1,26 @@
 public class Main {
     public static void main(String[] args) {
 
-        // задание 4
+        // задание 3
 
-        int deliveryDistance = 20;
-        switch (deliveryDistance) {
-
-            case 20:
-                System.out.println("Потребуется один день 24 часа ");
-                break;
-            case 60:
-                System.out.println("Потребуется два дня  48 часов");
-                break;
-            case 100:
-                System.out.println("Потребуется три дня  72 часа");
-                break;
-            default:
-                System.out.println("нет достаки");
+        int year = 2028;
+        if ( year % 400 ==0) {
+            System .out .println("Высокостный");
+        } else if (year % 100 == 0 ) {
+            System .out .println("Высокостный") ;
+        } else if (year % 4 == 0) {
+            System .out .println("Высокостный") ;
+        }else {
+            System .out .println("год не высокостный");
 
         }
+
     }
-}
+
+
+    }
+
+
 
 
 
